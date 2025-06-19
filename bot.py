@@ -55,5 +55,5 @@ def main():
             print('Error:', e)
         time.sleep(180)  # каждые ~3 минуты
 
-if name == '__main__':
+if __name__ == '__main__':
     main()
